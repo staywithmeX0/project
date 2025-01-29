@@ -39,6 +39,7 @@ nav {
 
 .login li{
     margin-left: 20px;
+    display: inline-block;
 }
 
 .login li a{
@@ -51,6 +52,12 @@ nav {
     font-size: 25px;
     color: #fff;
 }
+
+.account i {
+  font-size: 50px;
+  cursor: pointer;
+}
+
 
 .slider {
   position: relative;
@@ -276,10 +283,10 @@ main {
 
 main h1 {
   text-align: center;
-  background-color: #333;
+  background-color: #009688;
   height: 100px;
-  color: #fff;
-  padding: 40px;
+  color: black;
+  padding: 30px;
 }
 
 .img-banner {
@@ -361,8 +368,22 @@ main h1 {
 .slide-left {
   display: flex;
   flex-direction: column; 
-  gap: 10px; 
+  gap: 15px; 
+  text-align: center;
 }
+
+.slide-left h1 {
+  text-align: center;
+  background-color: #009688;
+  height: 100px;
+  color: black;
+  padding: 30px;
+}
+
+#menu-e {
+  padding-bottom: 20px;
+}
+
 
 .menustore {
   padding: 20px;
@@ -393,6 +414,15 @@ main h1 {
   margin: 0 0 10px;
 }
 
+.product-card a {
+  text-decoration: none;
+}
+
+.product-card a:hover {
+  color: orange;
+}
+
+
 .container h3 {
   color: #333;
   cursor: pointer;
@@ -403,3 +433,7 @@ main h1 {
   text-decoration: underline;
 }
 
+h3:hover {
+  transform: scale(1.2);
+  color: orange;
+}

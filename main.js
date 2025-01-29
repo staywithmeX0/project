@@ -1,5 +1,5 @@
 const productsE = [
-    { id: 1, name: "Store 1",  image: "img/banner1.jpg" },
+    { id: 1, name: "Store 1",  image: "img/banner1.jpg" ,url: "store1.html"},
     { id: 1, name: "Store 2",  image: "img/banner1.jpg" },
     { id: 1, name: "Store 3",  image: "img/banner1.jpg" },
     { id: 1, name: "Store 4",  image: "img/banner1.jpg" },
@@ -23,6 +23,7 @@ const productsE = [
         <div class="product-card">
           <img src="${product.image}" alt="${product.name}">
           <h4>${product.name}</h4>
+          <a href="${product.url}">OPEN</a>
         </div>
       `;
       productContainer.innerHTML += productCard;
