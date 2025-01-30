@@ -41,11 +41,23 @@
             <div class="storeinfo">
                 <h1>Store 1</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quasi minus nesciunt excepturi cum dignissimos, quas, dicta, quaerat et commodi libero debitis itaque amet nostrum sed beatae obcaecati ratione dolores pariatur doloribus? Earum nobis placeat voluptatum fugiat! Aspernatur placeat, natus, non nulla aperiam iure pariatur quisquam rerum, nostrum repudiandae vel.</p>
-
+                <div class="star-rating">
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5" class="star">
+                        <span class="count">0</span> 
+                    </label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4" class="star"></label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3" class="star"></label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2" class="star"></label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1" class="star"></label>
+                </div>
             </div>
         </div>
             <div class="comment-box">
-                <h1>comment</h1>
                 <textarea id="comment" placeholder="เขียนคอมเมนต์..." required></textarea>
                 <button onclick="postComment()">โพสต์</button>
             </div>
@@ -59,5 +71,6 @@
     <!--script-->
     <script src="./js/nav.js"></script>
     <script src="./js/comment.js"></script>
+    <script src="/js/star.js"></script>
 </body>
 </html>

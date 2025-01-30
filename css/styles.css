@@ -8,7 +8,8 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 30px;
-  background-color: #333;
+  background: #0f172b;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   position: fixed;
   top: 0; 
   width: 100%;  
@@ -110,8 +111,18 @@ nav {
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
-  opacity: 0.8;
   z-index: -1; 
+}
+
+.slide.active1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(15, 23, 43,0.8);
+  z-index: -1;
 }
 
 .slide.active2 {
@@ -132,8 +143,19 @@ nav {
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
-  opacity: 0.8;
+  opacity: 0.85;
   z-index: -1; 
+}
+
+.slide.active2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(15, 23, 43,0.8);
+  z-index: -1;
 }
 
 .slide.active3 {
@@ -154,8 +176,19 @@ nav {
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
-  opacity: 0.8;
+  opacity: 0.85;
   z-index: -1; 
+}
+
+.slide.active3::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(15, 23, 43,0.8);
+  z-index: -1;
 }
 
 .slide.active4 {
@@ -176,59 +209,52 @@ nav {
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
-  opacity: 0.8;
+  opacity: 0.85;
   z-index: -1; 
 }
 
-.star-rating {
-  display: flex;
-  flex-direction: row-reverse; 
-  margin: 10px;
-  justify-content: left;
-}
-
-input[type="radio"] {
-  display: none;
-}
-
-.star {
-  width: 25px;
-  height: 25px;
-  background: url('https://img.icons8.com/ios-filled/50/000000/star.png') no-repeat center center;
-  background-size: contain;
-  cursor: pointer;
-  position: relative;
-}
-
-.star .count {
+.slide.active4::after {
+  content: '';
   position: absolute;
-  bottom: 5px;
-  left: 30px;
-  color: #333;
-  font-size: 14px;
-  font-weight: bold;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(15, 23, 43,0.8);
+  z-index: -1;
+}
+
+.star-container {
+  font-size: 50px;
+}
+
+.yellow {
+  color: gold;
+}
+
+.black {
+  color: black;
 }
 
 
-.star:hover {
-  transform: scale(1.2);
+.twocolor{
+  background: linear-gradient(to right, gold 50%, black 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-input[type="radio"]:checked ~ label {
-  background: url('https://img.icons8.com/ios-filled/50/ffcc00/star.png') no-repeat center center;
-  background-size: contain;
+.custom-button {
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 45px;
 }
 
-
-input[type="radio"]:checked ~ label:hover,
-input[type="radio"]:not(:checked) ~ label:hover {
-  background: url('https://img.icons8.com/ios-filled/50/ffcc00/star.png') no-repeat center center;
-  background-size: contain;
-}
-
-input[type="radio"]:checked ~ input[type="radio"] ~ label {
-  background: url('https://img.icons8.com/ios-filled/50/ffcc00/star.png') no-repeat center center;
-  background-size: contain;
+.custom-button:hover {
+  background-color: blue;
+  color: #fff;
 }
 
 button {
@@ -283,9 +309,9 @@ main {
 
 main h1 {
   text-align: center;
-  background-color: #009688;
+  background: #0f172b;
   height: 100px;
-  color: black;
+  color: #fff;
   padding: 30px;
 }
 
@@ -374,9 +400,9 @@ main h1 {
 
 .slide-left h1 {
   text-align: center;
-  background-color: #009688;
+  background: #0f172b;
   height: 100px;
-  color: black;
+  color: #fff;
   padding: 30px;
 }
 

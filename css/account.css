@@ -9,7 +9,8 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 30px;
-  background-color: #333;
+  background: #0f172b;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   position: fixed;
   top: 0; 
   width: 100%;  
@@ -95,4 +96,52 @@ nav {
 .account i {
     font-size: 50px;
     cursor: pointer;
+}
+
+.sectionBanner{
+    width: 100%;
+    height: 60dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    position: relative;
+    background: url(/img/banner7.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    text-align: center;
+}
+
+.sectionBanner::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(15, 23, 43,0.85);
+    z-index: -1;
+}
+.sectionBanner .content{
+    text-align: center;
+}
+.sectionBanner .content h1{
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.sectionBanner .content p{
+    text-align: center;
+    color: white;
+}
+.sectionBanner .content p span{
+    padding: .5rem;
+}
+.sectionBanner .content p span:nth-child(1),.sectionBanner .content p span:nth-child(3){
+    color: yellow;
+}
+.sectionBanner .content p span:nth-child(2),.sectionBanner .content p span:nth-child(4){
+    color: #8d8c8c;
 }

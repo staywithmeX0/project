@@ -21,7 +21,7 @@ const productsE = [
     products.forEach(product => {
       const productCard = `
         <div class="product-card">
-          <img src="${product.image}" alt="${product.name}">
+          <img src="${product.image}" alt="">
           <h4>${product.name}</h4>
           <a href="${product.url}">OPEN</a>
         </div>
