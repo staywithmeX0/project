@@ -1,5 +1,5 @@
 let username = null;
-const profilePic = "/img/profile.jpg"; // ใช้รูปเดียวกันทุกคอมเมนต์
+const profilePic = "./img/profile.jpg";
 
 document.addEventListener("DOMContentLoaded", function () {
     let userData = localStorage.getItem("userData");
@@ -26,7 +26,7 @@ document.getElementById("logout").addEventListener("click", function () {
 });
 
 function postComment(parent = null) {
-    alert("กรุณาเเสดงความคิดเห็นอย่างสุภาพ");
+    alert("กรุณาเเสดงความคิดเห็นอย่างสุภาพเพื่อรีวิวที่ดีเเละมีประโยชน์หากความคิดเห็นที่เขียนมีการให้ข้อมูลที่เป็นเท็จหรือโจมตีร้านทางเเอดมินขออณุญาติทำการลบความคิดเห็น");
 
     if (!username) {
         alert("กรุณาล็อกอินก่อนคอมเมนต์");

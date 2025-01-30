@@ -109,7 +109,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('/img/banner1.jpg'); 
+  background: url('../img/banner1.jpg'); 
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -141,7 +141,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('/img/banner2.jpg'); 
+  background: url('../img/banner2.jpg'); 
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -174,7 +174,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('/img/banner3.jpg'); 
+  background: url('../img/banner3.jpg'); 
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -207,7 +207,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('/img/banner4.jpg'); 
+  background: url('../img/banner4.jpg'); 
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -350,7 +350,7 @@ main h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('/img/sileright1.jpg'); /* เริ่มจากภาพแรก */
+  background: url('../img/sileright1.jpg'); /* เริ่มจากภาพแรก */
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -361,16 +361,16 @@ main h1 {
 
 @keyframes changeBackground {
   0% {
-    background-image: url('/img/sileright1.jpg');
+    background-image: url('../img/sileright1.jpg');
   }
   33% {
-    background-image: url('/img/sileright2.jpg');
+    background-image: url('../img/sileright2.jpg');
   }
   66% {
-    background-image: url('/img/sileright3.jpg');
+    background-image: url('../img/sileright3.jpg');
   }
   100% {
-    background-image: url('/img/sileright1.jpg');
+    background-image: url('../img/sileright1.jpg');
   }
 }
 
@@ -432,7 +432,7 @@ main h1 {
 }
 .product-card img {
   max-width: 100%;
-  height: auto;
+  height: 150px;
   border-radius: 8px;
 }
 .product-card h4 {

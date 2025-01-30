@@ -107,7 +107,7 @@ nav {
     justify-content: center;
     padding: 0 2rem;
     position: relative;
-    background: url(/img/banner7.jpg);
+    background: url(../img/banner7.jpg);
     background-size: cover;
     background-position: center;
     z-index: 0;

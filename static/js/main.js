@@ -1,15 +1,13 @@
 const productsE = [
     { id: 1, name: "Store 1",  image: "img/banner1.jpg" ,url: "store1.html"},
-    { id: 1, name: "Store 2",  image: "img/banner1.jpg" },
-    { id: 1, name: "Store 3",  image: "img/banner1.jpg" },
-    { id: 1, name: "Store 4",  image: "img/banner1.jpg" },
+    { id: 1, name: "Store 2",  image: "img/banner1.jpg" ,url: "store2.html"},
+    { id: 1, name: "Store 3",  image: "img/banner1.jpg" ,url: "store3.html"},
+    { id: 1, name: "Store 4",  image: "img/banner1.jpg" ,url: "store4.html"},
   ];
 
   const productsX = [
-    { id: 1, name: "Store 5",  image: "img/banner1.jpg" },
-    { id: 1, name: "Store 6",  image: "img/banner1.jpg" },
-    { id: 1, name: "Store 7",  image: "img/banner1.jpg" },
-    { id: 1, name: "Store 8",  image: "img/banner1.jpg" },
+    { id: 1, name: "BB ส้มตำเเซป",  image: "img/store5.jpeg" ,url: "store5.html"},
+    { id: 1, name: "ข้ามมันไก่โกหนุน",  image: "img/store6.jpg" ,url: "store6.html"},
   ];
 
 
