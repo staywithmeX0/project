@@ -321,13 +321,14 @@ main h1 {
   width: 800px;
   height: 450px; 
   overflow: hidden;
-  margin-top: 150px;
-  margin-right: 120px;
+  margin-top: 170px;
+  margin-right: 50px;
+  
 }
 
 .img-banner img {
-  width: 100%; 
-  height: auto; 
+  width: 500px; 
+  height: 400px; 
   object-fit: cover; 
   border-radius: 15px;
 }

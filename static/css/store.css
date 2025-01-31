@@ -95,11 +95,20 @@ nav {
 .storeinfo {
     width: 80%;
     height: 200px;
-    background-color: white;
+    background-color: #333;
     border: 2px solid #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.storeinfo h1{
+    color: #fff;
+    padding: 20px;
+}
+
+.storeinfo p {
+    color: #fff;
+    font-size: 25px;
+}
 
 .comment-box {
     width: 80%;
@@ -202,7 +211,7 @@ input[type="radio"] {
     position: absolute;
     bottom: 5px;
     left: 30px;
-    color: #333;
+    color: #fff;
     font-size: 14px;
     font-weight: bold;
 }
